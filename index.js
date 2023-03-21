@@ -16,7 +16,7 @@ function createGrid(num) {
     const size = Math.min(num, 100);
 
     // Clear existing grid
-    contDiv.innerHTML = '';
+    contDiv.textContent = '';
 
     // Calculate the width and height of each square based on the container size
     const squareSize = `${Math.floor(960 / size)}px`;
