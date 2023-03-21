@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    background-color: beige;
+    background-color: rgb(227, 227, 166);
 }
 
 .container {
@@ -26,6 +26,10 @@
 button {
     font-weight: bold;
     color: black;
+}
+
+button:hover {
+    background-color: rgb(182, 182, 153);
 }
 
 h1 {
